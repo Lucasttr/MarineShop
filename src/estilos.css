@@ -1,0 +1,38 @@
+header {
+    background-image: url(img/pexels-simon-hurry-50614850-12858198.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: slide;
+    animation-duration: 10s;
+    color: #010201;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    border-top: #1714be 3px solid;
+    border-bottom: #233ed4 1px solid;
+    height: 300px;
+    
+}
+@keyframes slide {
+   0% {background-image: url(img/pexels-andre-estevez-1743712-3309865.jpg) ;}
+   25% {background-image: url(img/pexels-dianne-maddox-2069639-3695720.jpg) ;}
+   50% {background-image: url(img/pexels-simon-hurry-50614850-12858198.jpg) ;}
+   100% {background-image: url(img/pexels-solyartphotos-9355603.jpg) ;}
+}
+
+body {
+    background-image: url(img/download.jfif);
+    background-size:cover;
+}
+
+.card {
+    border: #2aa6ee 3px solid;
+    background-color: #d6f5fd;
+}
+
+.card img { 
+    width: 280px;
+    height: 260px;
+    border-bottom: 2px #2aa6ee solid;
+    
+}
